@@ -1,13 +1,11 @@
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Hanken_Grotesk, Source_Serif_4 } from "next/font/google";
 
-export const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-
-export const geistSans = Geist({
-  variable: "--font-geist-sans",
+export const hanken = Hanken_Grotesk({
+  variable: "--font-hanken",
   subsets: ["latin"],
 });
 
-export const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+export const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
   subsets: ["latin"],
 });
